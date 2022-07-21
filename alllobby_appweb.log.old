@@ -1,0 +1,76 @@
+   default:2 main  Configuration for AllLobby.exe
+   default:2 main  --------------------------------------------
+   default:2 main  Host:               localhost
+   default:2 main  CPU:                i386
+   default:2 main  OS:                 WIN
+   default:2 main  Version:            2.0.4.1
+   default:2 main  BuildType:          RELEASE
+   default:2 main  Started at:         Thu Jul 21 00:41:06 2022
+   default:2 main  Log rotation count: 0
+   default:2 main  --------------------------------------------
+     timer:6 main  New Timer 6d01b8, time msec 3600000
+    select:8 main  awaken: wait 0
+     timer:6 main  New Timer 6d11a0, time msec 60000
+    select:8 main  awaken: wait 0
+   default:2 main  Starting service thread
+   default:3 main  Created thread event (53f8)
+   default:3 main  MPR services are ready
+     timer:8 event  runTimers: at sec 1153, usec 436000
+    select:8 event  getFds: maxFd 569
+     timer:8 event  runTimers: at sec 1213, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1213, usec 420000
+     timer:8 event  runTimers: at sec 1273, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1273, usec 420000
+     timer:8 event  runTimers: at sec 1333, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1333, usec 420000
+     timer:8 event  runTimers: at sec 1393, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1393, usec 420000
+     timer:8 event  runTimers: at sec 1453, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1453, usec 420000
+     timer:8 event  runTimers: at sec 1513, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1513, usec 420000
+     timer:8 event  runTimers: at sec 1573, usec 420000
+     timer:7 event  runTimers: callTimer directly
+    select:8 event  awaken: wait 0
+    select:8 event  serviceIO START
+    select:8 event  serviceIO: solo breakout event
+     timer:8 event  runTimers: at sec 1573, usec 420000
+   default:2 main  MPR: instructed to terminate
+    select:8 main  awaken: wait 0
+     timer:5 main  6d01b8: MprTimer stop, inUse 1
+     timer:5 main  6d01b8: MprTimer dispose, inUse 1
+    select:8 event  serviceIO START
+     timer:5 main  6d01b8: MprTimer delete, inUse 0
+    select:8 event  serviceIO: solo breakout event
+   default:3 event  Thread exiting event (53f8)
+     timer:5 main  6d11a0: MprTimer stop, inUse 1
+     timer:5 main  6d11a0: MprTimer dispose, inUse 1
+     timer:5 main  6d11a0: MprTimer delete, inUse 0
+    select:8 main  stop()
+    select:8 main  awaken: wait 0
+
+- End -

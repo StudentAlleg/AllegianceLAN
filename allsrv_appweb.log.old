@@ -1,0 +1,19 @@
+   default:2 main  Configuration for AllSrv.exe
+   default:2 main  --------------------------------------------
+   default:2 main  Host:               localhost
+   default:2 main  CPU:                i386
+   default:2 main  OS:                 WIN
+   default:2 main  Version:            2.0.4.1
+   default:2 main  BuildType:          RELEASE
+   default:2 main  Started at:         Thu Jul 21 00:49:10 2022
+   default:2 main  Log rotation count: 0
+   default:2 main  --------------------------------------------
+     timer:6 main  New Timer 79eff8, time msec 3600000
+    select:8 main  awaken: wait 0
+     timer:6 main  New Timer 79f058, time msec 60000
+    select:8 main  awaken: wait 0
+   default:2 main  Starting service thread
+   default:3 main  Created thread event (8048)
+   default:3 main  MPR services are ready
+     timer:8 event  runTimers: at sec 1637, usec 530000
+    select:8 event  getFds: maxFd 557

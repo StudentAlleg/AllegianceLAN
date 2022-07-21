@@ -1,4 +1,267 @@
-2022-07-19 18:54:42 one: {
+2022-07-21 00:49:55 Running AllSrv 1.09.1040081.00.260616
 
-2022-07-19 18:54:42 two: {
+2022-07-21 00:49:55 Entering ReceiveThread
+
+2022-07-21 00:49:55 Mission Initialize id=0 this=530cef0 now=44632322
+
+2022-07-21 00:49:55 trekCore completed
+
+2022-07-21 00:49:55 iStaticCoreVersion = 990047673
+
+2022-07-21 00:49:55 CoCreateInstance( CLSID_DirectPlay8Server ... )
+
+2022-07-21 00:49:55 m_pDirectPlayServer->Initialize( ... )
+
+2022-07-21 00:49:55 InitDPlayServer() returned 0
+
+2022-07-21 00:49:55 CoCreateInstance( CLSID_DirectPlay8Address ... )
+
+2022-07-21 00:49:55 pDP8AddressLocal->SetSP( &CLSID_DP8SP_TCPIP )
+
+2022-07-21 00:50:01 m_pDirectPlayServer->Host( &dpnAppDesc ... ) - returned 0
+
+2022-07-21 00:50:01 Creating download thread.
+
+2022-07-21 00:50:01 DownloadThread(): thread started.
+
+2022-07-21 00:50:01 DownloadThread(): beginning wait cycle.
+
+2022-07-21 00:50:01 Downloading cfg file...
+2022-07-21 00:50:01 DownloadThread(): Checking for pSession->m_hFile: 0
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_hFile was null, calling start next file.
+
+2022-07-21 00:50:01 DownloadThread(): checking pSession->m_hFile: 2784
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_hFile was not null, downloading file block.
+
+2022-07-21 00:50:01 DownloadThread(): pSession->DownloadFileBlock() result: 1.
+
+2022-07-21 00:50:01 DownloadThread(): pSession->DownloadFileBlock() returned: DOWNLOAD_PROGRESS
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_eventProgress - event set.
+
+2022-07-21 00:50:01 DownloadThread(): Checking for pSession->m_hFile: 2784
+
+2022-07-21 00:50:01 DownloadThread(): checking pSession->m_hFile: 2784
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_hFile was not null, downloading file block.
+
+2022-07-21 00:50:01 DownloadThread(): pSession->DownloadFileBlock() result: 1.
+
+2022-07-21 00:50:01 DownloadThread(): pSession->DownloadFileBlock() returned: DOWNLOAD_PROGRESS
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_eventProgress - event set.
+
+2022-07-21 00:50:01 DownloadThread(): Checking for pSession->m_hFile: 2784
+
+2022-07-21 00:50:01 DownloadThread(): checking pSession->m_hFile: 2784
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_hFile was not null, downloading file block.
+
+2022-07-21 00:50:01 DownloadThread(): pSession->DownloadFileBlock() result: 2.
+
+2022-07-21 00:50:01 DownloadThread(): pSession->DownloadFileBlock() returned: FILE_COMPLETED
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_eventFileCompleted - event set.
+
+2022-07-21 00:50:01 DownloadThread(): Checking for pSession->m_hFile: 0
+
+2022-07-21 00:50:01 DownloadThread(): pSession->m_hFile was null, calling start next file.
+
+2022-07-21 00:50:01 DownloadThread(): checking pSession->m_hFile: 0
+
+2022-07-21 00:50:02 Done
+
+2022-07-21 00:50:02 Download thread exiting...
+
+2022-07-21 00:50:02 Found a session: {5db14e60-4a34-4690-bed0-57e1fe7b65b9} for application {797ba096-71de-4bcb-a26a-183af1bdf74d}
+
+2022-07-21 00:50:02 DirectPlay: Connecting synchronously
+2022-07-21 00:50:03 Found a session: {5db14e60-4a34-4690-bed0-57e1fe7b65b9} for application {797ba096-71de-4bcb-a26a-183af1bdf74d}
+
+2022-07-21 00:50:03 DirectPlay: Connect success
+2022-07-21 00:50:03 Mission Initialize id=0 this=9a04138 now=44632156
+
+2022-07-21 00:50:04 Adding side 0 
+
+2022-07-21 00:50:04 Creating TeamLobby
+2022-07-21 00:50:04 Adding side -2 
+
+2022-07-21 00:50:04 Created TeamLobby
+2022-07-21 00:50:04 Creating Team Spectator
+2022-07-21 00:50:04 Adding side -3 
+
+2022-07-21 00:50:04 Created Team Spectator
+2022-07-21 00:50:04 Adding side 1 
+
+2022-07-21 00:50:04 LoadRankInfo result: #ranks=40
+
+2022-07-21 00:50:04 calling LoadStaticMapInfo
+
+2022-07-21 00:50:04 LoadStaticMapInfo result: #maps=36
+
+2022-07-21 00:50:04 received drm update request with url: http://allegiance.zaphop.com/api/drm?apikey=0
+
+2022-07-21 00:50:04 Creating download thread.
+
+2022-07-21 00:50:04 Downloading drm hash file...
+2022-07-21 00:50:04 DownloadThread(): thread started.
+
+2022-07-21 00:50:04 DownloadThread(): beginning wait cycle.
+
+2022-07-21 00:50:04 DownloadThread(): Checking for pSession->m_hFile: 0
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_hFile was null, calling start next file.
+
+2022-07-21 00:50:04 DownloadThread(): checking pSession->m_hFile: 2900
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_hFile was not null, downloading file block.
+
+2022-07-21 00:50:04 DownloadThread(): pSession->DownloadFileBlock() result: 1.
+
+2022-07-21 00:50:04 DownloadThread(): pSession->DownloadFileBlock() returned: DOWNLOAD_PROGRESS
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_eventProgress - event set.
+
+2022-07-21 00:50:04 DownloadThread(): Checking for pSession->m_hFile: 2900
+
+2022-07-21 00:50:04 DownloadThread(): checking pSession->m_hFile: 2900
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_hFile was not null, downloading file block.
+
+2022-07-21 00:50:04 DownloadThread(): pSession->DownloadFileBlock() result: 1.
+
+2022-07-21 00:50:04 DownloadThread(): pSession->DownloadFileBlock() returned: DOWNLOAD_PROGRESS
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_eventProgress - event set.
+
+2022-07-21 00:50:04 DownloadThread(): Checking for pSession->m_hFile: 2900
+
+2022-07-21 00:50:04 DownloadThread(): checking pSession->m_hFile: 2900
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_hFile was not null, downloading file block.
+
+2022-07-21 00:50:04 DownloadThread(): pSession->DownloadFileBlock() result: 2.
+
+2022-07-21 00:50:04 DownloadThread(): pSession->DownloadFileBlock() returned: FILE_COMPLETED
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_eventFileCompleted - event set.
+
+2022-07-21 00:50:04 DownloadThread(): Checking for pSession->m_hFile: 0
+
+2022-07-21 00:50:04 DownloadThread(): pSession->m_hFile was null, calling start next file.
+
+2022-07-21 00:50:04 DownloadThread(): checking pSession->m_hFile: 0
+
+2022-07-21 00:50:04 Done
+
+2022-07-21 00:50:04 Download thread exiting...
+
+2022-07-21 00:50:04 Timer: 0.510000s spent in FedSrvLobbySite::OnAppMessage, 0.510000s total (longest so far)
+
+2022-07-21 00:50:04 ^--...for message type FM_L_UPDATE_DRM_HASHES
+
+
+2022-07-21 00:50:04 sending lobby our mission info for 7ff1af8 listening on port 0
+
+2022-07-21 00:50:04 Timer: 0.510000s spent in lobby ReceiveMessages(), 0.510000s total (longest so far)
+
+2022-07-21 00:50:04 Timer: 0.511000s spent between iterations in ReceiveThread loop, 0.511000s total (longest so far)
+
+2022-07-21 00:50:04 Timer: 0.050000s spent in message pump, 0.050000s total (longest so far)
+
+2022-07-21 00:50:04 Timer: 0.051000s spent in message pump, 0.101000s total (longest so far)
+
+2022-07-21 00:50:10 Timer: 0.052000s spent in message pump, 5.712000s total (longest so far)
+
+2022-07-21 00:52:04 Mission Initialize id=0 this=54e6c10 now=44761319
+
+2022-07-21 00:52:04 Adding side 0 
+
+2022-07-21 00:52:04 Creating TeamLobby
+2022-07-21 00:52:04 Adding side -2 
+
+2022-07-21 00:52:04 Created TeamLobby
+2022-07-21 00:52:04 Creating Team Spectator
+2022-07-21 00:52:04 Adding side -3 
+
+2022-07-21 00:52:04 Created Team Spectator
+2022-07-21 00:52:04 Adding side 1 
+
+2022-07-21 00:52:04 sending lobby our mission info for 7ff1508 listening on port 0
+
+2022-07-21 00:52:17 No one showed up for mission 7ff1508, killing it.
+
+2022-07-21 00:52:17 SetStage, stage=4, mission=7ff1508
+
+2022-07-21 00:52:17 sending lobby our mission info for 7ff1508 listening on port 0
+
+2022-07-21 00:52:17 Terminating mission id=2, this=54e6c10 igccount=0
+
+2022-07-21 00:52:17 moving 0 ships to NULL mission
+
+2022-07-21 00:52:17 nuking 0 clusters
+
+2022-07-21 00:52:17 nuking 2 sides
+
+2022-07-21 00:52:17 Nuking 1 treasureset(s):
+
+2022-07-21 00:52:17 	Curt's Cool Crap           (1)
+
+2022-07-21 00:52:17 Nuking 27 drone types:
+
+2022-07-21 00:52:17 	Constructor (26)
+
+2022-07-21 00:52:17 	Constructor (27)
+
+2022-07-21 00:52:17 	Constructor (326)
+
+2022-07-21 00:52:17 	Constructor (327)
+
+2022-07-21 00:52:17 	Constructor (426)
+
+2022-07-21 00:52:17 	Constructor (427)
+
+2022-07-21 00:52:17 	Constructor (526)
+
+2022-07-21 00:52:17 	Constructor (527)
+
+2022-07-21 00:52:17 	Constructor (626)
+
+2022-07-21 00:52:17 	Constructor (627)
+
+2022-07-21 00:52:17 	Miner (32)
+
+2022-07-21 00:52:17 	Miner (332)
+
+2022-07-21 00:52:17 	Miner (432)
+
+2022-07-21 00:52:17 	Miner (532)
+
+2022-07-21 00:52:17 	Miner (632)
+
+2022-07-21 00:52:17 	Tower Layer (41)
+
+2022-07-21 00:52:17 	Tower Layer (341)
+
+2022-07-21 00:52:17 	Tower Layer (441)
+
+2022-07-21 00:52:17 	Tower Layer (541)
+
+2022-07-21 00:52:17 	Tower Layer (641)
+
+2022-07-21 00:52:17 	Mine layer (200)
+
+2022-07-21 00:52:17 	Carrier (225)
+
+2022-07-21 00:52:17 	Carrier (325)
+
+2022-07-21 00:52:17 	Carrier (425)
+
+2022-07-21 00:52:17 	Carrier (525)
+
+2022-07-21 00:52:17 	Carrier (625)
+
+2022-07-21 00:52:17 	Wingman (40)
 
